@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root{
+
+    --cor-primaria: #000000;
+    --cor-secundaria: #AF0404;
+    --cor-terciaria: #414141;
+
+
+    --fonte-principal: "Kode Mono", monospace;
+    --fonte-secundaria: "Space Grotesk", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 95vw;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    margin: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.titulo-principal{
+    font-family: var(--fonte-principal);
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 1%;
+    padding: 1%;
+    
+}
+
+.area-texto{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.area-texto-escrever{
+    resize: none;
+
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    color: var(--cor-secundaria);
+
+    font-size: 1.5rem;
+    width: 700px;
+    height: 500px;
+
+}
+
+.area-texto-exibir{
+    resize: none;
+
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    border-radius: 5px;
+
+    font-size: 1.5rem;
+    width: 350px;
+    height: 500px;
+}
+
+.alerta{
+    display: flex;
+    justify-content:left;
+    padding: 1px 0px 10px 0px;
+
+}
+
+.mensagem-alerta{
+    font-family: var(--fonte-secundaria);
+    font-size: 0.8rem;
+    color: var(--cor-terciaria);
+    margin-left: 19%;
+
+
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    padding: 2%;   
+    justify-content: center;
+
+}
+
+.botao-criptografar{
+    display: flex;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 1%;
+    width: 19.5rem;
+
+}
+.botao-descriptografar{
+    display: flex;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 1%;
+    width: 19.5rem;
+}
+
+.botao-copiar{
+    display: flex;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 1%;
+    width: 19.5rem;
+}
